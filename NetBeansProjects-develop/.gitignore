@@ -1,0 +1,38 @@
+*.class
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+/PROGRAMACION_Ejercicios4_Cadenas/build/
+/PROGRAMACION_Ejercicios3_arraylistVectores/build/
+/PROGRAMACION_Ejercicios6_ExpresionesRegulares/nbproject/private/
+/PROGRAMACION_Ejemplos_Tema_5/nbproject/private/
+/PROGRAMACION_Ejercicios5_ExpresionesRegulares/nbproject/private/
+/PROGRAMACION_Ejemplos_Tema_5/build/
+/PROGRAMACION_Ejercicios1_Excepciones/nbproject/private/
+/PROGRAMACION_Ejercicios1_Excepciones/build/
+/PORGRAMACION_Ejemplos_Tema_6/nbproject/private/
+/ENTORNOS_Tarea_T_3/nbproject/private/
+/ENTORNOS_Tarea_Tema_3/nbproject/private/
+/PROGRAMACION_Examen_Tema_5/nbproject/private/
+/PROGRAMACION_Examen_Tema_5/build/
+/metodos/nbproject/private/
+/mierdas/nbproject/private/
+/ENTORNOS_Tarea_Tema_3/build/
+/SergioMorenoAntequera_Tarea_3.2/nbproject/private/
+/ENTORNOS_Ejemplos_Tema_4/nbproject/private/
+/ENTORNOS_Ejemplos_Tema_4/dist/
+/MorenoAntequeraSergio2Evaluacion/nbproject/private/
+/MorenoAntequeraSergio2Evaluacion/build/
+/PROGRAMACION_Tarea_Tema _6/nbproject/private/
+/PROGRAMACION_Tarea_Tema _6/build/
+/PROGRAMACION_Ejemplos_Tema_7/nbproject/private/
+/PROGRAMACION_Ejemplos_Tema_7/build/
+/Refactoring/nbproject/private/
