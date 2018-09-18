@@ -1,0 +1,6 @@
+INDEX VERSION 1.130+/home/diurno/Repositorios/eclipse-espaciodetrabajo/.metadata/.plugins/org.eclipse.jdt.core
+678503074.index
+642031592.index
+3064469157.index
+863293751.index
+1050795107.index

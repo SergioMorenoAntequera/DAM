@@ -1,0 +1,10 @@
+package objeto.file;
+
+public class Filtrado {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

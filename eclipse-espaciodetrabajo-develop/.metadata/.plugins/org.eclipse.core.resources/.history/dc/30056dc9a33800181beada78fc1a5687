@@ -1,0 +1,31 @@
+package ficheros.texto;
+
+import java.io.File;
+import java.util.Scanner;
+
+/*
+* Comprueba si un File es fichero o directorio
+*/
+public class Analiza {
+	public static void analizarRuta(String ruta) {
+		File nombre = new File (ruta); //crea objeto File en base al nombre
+		//introducido por el usuario
+		if (nombre.exists()) { //si el archivo o directorio existe muestra
+			//la información
+			System.out.println(nombre.getName()+ " existe" );
+			if(nombre.isFile())
+				System.out.println ("es un archivo");
+			if(nombre.isDirectory())
+				System.out.println("es un directorio");
+		}else System.out.println(nombre+ " ruta no existe");
+	}
+	public static void main(String args[]) {
+		Scanner entrada = new Scanner (System.in);
+		System.out.println("Escriba el nombre del archivo o directorio");
+		// Probar con:
+		//D:\Principal
+		//D:\Principal\Segundo\Ficheros\fichero1.dat
+		analizarRuta(entrada.nextLine());
+		entrada.close();
+	}
+}

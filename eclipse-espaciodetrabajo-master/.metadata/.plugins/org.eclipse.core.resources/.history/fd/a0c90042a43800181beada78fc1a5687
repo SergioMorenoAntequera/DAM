@@ -1,0 +1,18 @@
+package objeto.file;
+import java.io.File;
+
+public class Permisos {
+
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		File fichero = new File("/home/diurno/Documentos/Ficheros_Program/fichero");
+		
+		
+		fichero.setExecutable(true);
+		fichero.setReadable(true);
+		fichero.setWritable(true);
+		
+	}
+
+}

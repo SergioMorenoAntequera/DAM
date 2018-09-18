@@ -1,0 +1,13 @@
+package ejercicios.file;
+
+import java.io.File;
+
+public class Analiza {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		File archivo = new File("archivo");
+		
+		System.out.println(archivo);
+	}
+
+}

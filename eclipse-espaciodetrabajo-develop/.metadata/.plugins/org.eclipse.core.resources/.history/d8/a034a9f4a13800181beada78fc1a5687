@@ -1,0 +1,15 @@
+package ejercicios.file;
+import java.io.File;
+
+public class Permisos {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		File f = new File("/home/diurno/Documentos/Ficheros_Program/fichero");
+		
+		f.setExecutable(true);
+		f.setReadable(true);
+		f.setWritable(true);
+	}
+
+}

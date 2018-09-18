@@ -1,0 +1,25 @@
+package ejercicios.ficheros.texto;
+
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+
+/*
+ * Crea un programa que muestre el contenido de un fichero de texto, cuyo 
+ * nombre deberá introducir el usuario. Debe avisar si el fichero no existe.(Texto01.java).
+ * 
+ * */
+
+public class Ejercicio01 throws FileNotFoundException, IOException {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String cadena;
+		FileReader f = new FileReader(archivo);
+		
+		
+		
+	}
+
+}
